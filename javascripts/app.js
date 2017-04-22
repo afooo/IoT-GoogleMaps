@@ -9,7 +9,7 @@ var app = app || {};
 **/
 app.Message = Backbone.Model.extend({
     url: function() {
-         return 'http://192.168.1.104/1/weather';
+         return 'http://192.168.1.110/1/weather';
     },
     id: null,
     defaults: {
